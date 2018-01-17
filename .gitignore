@@ -5,9 +5,8 @@ dist/
 nohup.out
 npm-debug.log
 
-production
-public/img
-public/fonts
+production/js
+production/css
 
 .DS_Store
 .DS_Store?
