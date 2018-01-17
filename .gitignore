@@ -1,0 +1,13 @@
+node_modules/
+.idea/
+dist/
+
+nohup.out
+npm-debug.log
+
+production
+public/img
+public/fonts
+
+.DS_Store
+.DS_Store?

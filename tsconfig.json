@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "sass/*": [
+        "assets/sass/*"
+      ],
+      "helpers/*": [
+        "src/helpers/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "configs/*": [
+        "src/configs/*"
+      ],
+      "apps/*": [
+        "src/apps/*"
+      ],
+      "api/*": [
+        "src/api/*"
+      ],
+      "text/*": [
+        "src/text/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
